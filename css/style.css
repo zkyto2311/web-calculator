@@ -1,5 +1,7 @@
+html {
+    background-color: 333;
+}
 .background{
-    background: #333;
     height: 600px;
     display: flex;
     margin-bottom: 100px;
