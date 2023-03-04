@@ -1,7 +1,21 @@
-html {
-    background-color: #333;
+:root {
+    --white: #fff;
+    --black: #333;
 }
-.background{
+.light-theme {
+    --bg: var(--white);
+    --fc: var(--black);
+}
+.dark-theme {
+    --bg: var(--black);
+    --fc: var(--white);
+}
+body {
+    font-family: helvetica;
+    background-color: var(--bg);
+    color: var(--fc);
+}
+.substance{
     height: 600px;
     display: flex;
     margin-bottom: 100px;
